@@ -51,8 +51,9 @@ After cloning the tuya-cloudcutter git repository, run the tuya-cloudcutter scri
 successfully been built, make the following selections:
 
 - When prompted with "Select your desired operation" enter "2" for "Flash 3rd Party Firmware"
-- When prompted with "How do you want to choose the device?", choose "device-profiles (i.e. custom profile)"
-- When prompted with "Select device profile", choose "tuya-generic-universal-ir-remote-control-cb3s-v2.0.0"
+- When prompted with "How do you want to choose the device?", choose "By manufacturer/device name"
+- When prompted with "Select the brand of your device:", choose "Tuya Generic"
+- When prompted with "Select the article number of your device", choose "Universal IR Remote Control CB3S v2.0.0"
 - Cloudcutter will then make a few checks on ports in use on your host and may prompt you to stop some running services
   to release them for it to use. You will have to accept (press "y") to proceed with the OTA exploit
 - Once you are prompted with "Select your custom firmware file for BK7231N chip", choose the "ESPHome-Kickstart" option.
